@@ -4,22 +4,27 @@
 		<meta charset="UTF-8" />
 		<title>JavaScript is fun!</title>
 		<link rel="stylesheet" href="style.css" />
+
 		<script src="script.js"></script>
 
 		<script>
-			subscription = "premium";
-			cost = 0;
-			if (subscription === "free") {
-				cost = 0;
-			} else if (subscription === "pro") {
-				cost = 100;
-			} else if (subscription === "premium") {
-				cost = 500;
+			let subscription;
+			const koszt = 0;
+
+			if (koszt == 0) {
+				console.log(cost);
+				console.log((subscription = "free"));
+			}
+
+			if (koszt >= 100 && cost < 500) {
+				console.log((subscription = "pro"));
+			}
+
+			if (cost >= 500) {
+				console.log((subscription = "premium"));
 			} else {
 				console.log("Invalid subscription type");
 			}
-
-			console.log(cost); // 500
 		</script>
 	</head>
 
