@@ -9,11 +9,14 @@
 	<script src="script.js"></script>
 
 	<script>
-		subscription = "premium";
+		subscription = "free";
 		cost = 0;
+
 		if (subscription === "free") {
-			console.log(cost = 0);
-		} else if (subscription === "pro") {
+			cost = 0;
+			console.log(cost);
+		}
+		else if (subscription === "pro") {
 			console.log(cost = 100);
 		} else if (subscription === "premium") {
 			console.log(cost = 500);
