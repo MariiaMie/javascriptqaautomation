@@ -9,17 +9,22 @@
 	<script src="script.js"></script>
 
 	<script>
-		subscription = "premium";
-		cost = 0;
-		if (subscription === "free") {
-			console.log(cost = 0);
-		} else if (subscription === "pro") {
-			console.log(cost = 100);
-		} else if (subscription === "premium") {
-			console.log(cost = 500);
-		} else {
-			console.log("Invalid subscription type");
+		let subscription;
+		const koszt = 0;
+
+		if (koszt == 0) {
+			console.log(cost);
+			console.log(subscription = "free");
 		}
+
+		if (koszt >= 100 && cost < 500) {
+			console.log(subscription = "pro");
+		}
+
+		if (cost >= 500) {
+			console.log(subscription = "premium");
+		}
+
 	</script>
 </head>
 
