@@ -22,26 +22,6 @@ przesylka2.waga = 20;
 przesylka.name = "List";
 przesylka2.name = "Paczka";
 
-// function mojaFunkcja1() {
-// 	const element = document.getElementById("id01");
-// 	informacja = "Typ twojej przesyłki to: " + przesylka.name;
-// 	element.innerHTML = informacja;
-
-// 	const element2 = document.getElementById("id02");
-// 	informacja = "Waga twojej przesyłki to: " + przesylka.waga + " kg";
-// 	element2.innerHTML = informacja;
-// }
-
-// function mojaFunkcja2() {
-// 	const element = document.getElementById("id01");
-// 	informacja = "Typ twojej przesyłki to: " + przesylka2.name;
-// 	element.innerHTML = informacja;
-
-// 	const element2 = document.getElementById("id02");
-// 	informacja = "Waga twojej przesyłki to: " + przesylka2.waga + " kg";
-// 	element2.innerHTML = informacja;
-// }
-
 function mojaFunkcja(id) {
 	const element = document.getElementById("id01");
 	const element2 = document.getElementById("id02");
@@ -63,104 +43,25 @@ function mojaFunkcja(id) {
 	}
 }
 
-// const clients = ["Mango", "Poly", "Ajax"];
-// let message;
+// function mojaFunkcja1() {
+// 	const element = document.getElementById("id01");
+// 	informacja = "Typ twojej przesyłki to: " + przesylka.name;
+// 	element.innerHTML = informacja;
 
-// for (const client of clients) {
-// 	if (client === imie) {
-// 		message = "Klient z takim imieniem jest w bazie danych!";
-// 		break;
-// 	}
-
-// 	message = "Nie znaleźliśmy takiego klienta w bazie danych!";
+// 	const element2 = document.getElementById("id02");
+// 	informacja = "Waga twojej przesyłki to: " + przesylka.waga + " kg";
+// 	element2.innerHTML = informacja;
 // }
 
-// console.log(message);
+// function mojaFunkcja2() {
+// 	const element = document.getElementById("id01");
+// 	informacja = "Typ twojej przesyłki to: " + przesylka2.name;
+// 	element.innerHTML = informacja;
 
-//function mojaFunkcja() {
-//for (let i = 0; i <= 20; i += 5) {
-//console.log(i);
-//}
-//}
-
-// function mojaFunkcja() {
-// 	const target = 4;
-// 	let sum = 0;
-
-// 	for (let i = 0; i < target; i += 1) {
-// 		console.log("Twoje i wynosi: " + i);
-// 		console.log("Obliczenie: " + sum + " + " + i + " =");
-// 		sum += i;
-// 		console.log("Wynik: " + sum);
-// 	}
-// 	console.log(sum);
+// 	const element2 = document.getElementById("id02");
+// 	informacja = "Waga twojej przesyłki to: " + przesylka2.waga + " kg";
+// 	element2.innerHTML = informacja;
 // }
-
-// function mojaFunkcja() {
-// 	const clients = ["Mango", "Poly", "Ajax"];
-
-// 	for (let i = 0; i < clients.length; i += 1) {
-// 		console.log(clients[i]);
-// 	}
-// }
-
-// function mojaFunkcja(imie) {
-// 	const clients = ["Mango", "Poly", "Ajax"];
-// 	let message;
-
-// 	for (const client of clients) {
-// 		if (client === imie) {
-// 			message = "Klient z takim imieniem jest w bazie danych!";
-// 			break;
-// 		}
-
-// 		message = "Nie znaleźliśmy takiego klienta w bazie danych!";
-// 	}
-
-// 	console.log(message);
-// }
-
-// c
-
-// const user = {
-// 	name: "Jacques Gluke",
-// 	tag: "jgluke",
-// 	location: {
-// 		country: "Jamaica",
-// 		city: "Ocho Rios",
-// 	},
-// 	hobbies: ["swiming", "music", "sci-fi"],
-// 	getName() {
-// 		console.log("Witaj użytkowniku " + this.name);
-// 	},
-// };
-
-// user.name = " Maria ";
-// user.getName();
-// const loc = user.location;
-// console.log(loc);
-
-// const country = user.location.country;
-// console.log(country);
-
-// const user = {
-// 	name: "",
-// 	tag: "",
-// 	location: {
-// 		country: "Jamaica",
-// 		city: "Ocho Rios",
-// 	},
-// 	hobbies: ["swiming", "music", "sci-fi"],
-// 	setName(aaa) {
-// 		this.name = aaa;
-// 	},
-// 	getName() {
-// 		console.log("Witaj uzytkowniku: " + this.name);
-// 	},
-// };
-
-// user.setName("Krzysiu");
-// user.getName();
 
 // const przesylka = {
 // 	name: "",
@@ -180,20 +81,3 @@ function mojaFunkcja(id) {
 // console.log(przesylka.waga);
 // console.log(przesylka2.name);
 // console.log(przesylka2.waga);
-
-function greet(name2) {
-	console.log(`Pozdrawiam ${name2}.`);
-	return name2;
-}
-
-function registerGuest(name, parametr) {
-	console.log(`Rejestracja gościa ${name}.`);
-
-	parametr(name);
-}
-
-greet("Kiwi");
-console.log(greet("Kiwi"));
-console.log(greet);
-
-registerGuest("Mango", greet);
