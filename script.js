@@ -180,3 +180,20 @@ function mojaFunkcja(id) {
 // console.log(przesylka.waga);
 // console.log(przesylka2.name);
 // console.log(przesylka2.waga);
+
+function greet(name2) {
+	console.log(`Pozdrawiam ${name2}.`);
+	return name2;
+}
+
+function registerGuest(name, parametr) {
+	console.log(`Rejestracja gościa ${name}.`);
+
+	parametr(name);
+}
+
+greet("Kiwi");
+console.log(greet("Kiwi"));
+console.log(greet);
+
+registerGuest("Mango", greet);
